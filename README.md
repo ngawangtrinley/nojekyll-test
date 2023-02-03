@@ -1,1 +1,2 @@
-# nojekyll-test
+# Docs
+Documentation for the BuddhistCAT
