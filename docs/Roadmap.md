@@ -1,5 +1,7 @@
 # Roadmap
 
+བཀྲ་ཤིས་བདེ་ལེགས་ཤོག
+
 There will be three phases of development in the roadmap of BuddhistCAT spanning across several years.
 
 ## Introduction
@@ -17,5 +19,3 @@ TBA
 ## Evolution
 
 TBA
-
-བཀྲ་ཤིས་བདེ་ལེགས།
