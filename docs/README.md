@@ -1,11 +1,6 @@
-# Getting Started
+# སྨོན་ལམ་རིག་ནུས་ལས་གཞི།
 
-## 1. Requirements
+> 🔁ཡིག་བསྒྱུར་རིག་ནུས་བཟོ་བསྐྲུན་གྱི་ལས་རིམ།
 
-- Requirement 1
-- Requirement 2
+[![image](https://user-images.githubusercontent.com/17675331/218024978-66540388-abd1-4c7f-b68e-aa4fdfaf5339.png)](https://user-images.githubusercontent.com/17675331/218024978-66540388-abd1-4c7f-b68e-aa4fdfaf5339.png)
 
-## 2. Step-by-Step
-
-- Step 1
-- Step 2

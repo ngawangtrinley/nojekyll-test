@@ -1,5 +1,4 @@
-- Getting Started
-  - [How It Works](How-It-Works.md)
-
-- Troubleshooting
-  - [Asking for help](Asking-Help.md)
+- Quick start
+  - [Step 1](mt/webpage-catalog.md)
+- How to
+  - [How to 1](howto/github.md)

@@ -2,51 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  // Replace Tool in the title
-  <title>Tool Documentation</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
+  <title>Monlam Wiki</title>
+  <link rel="icon" href="_assets/favicon.ico">
+  <meta name="description" content="Tool">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" title="vue">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/dark.css" title="dark" disabled>
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/buble.css" title="buble" disabled>
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/pure.css" title="pure" disabled>
-  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+  <link rel="stylesheet" href="_style/light.css">
+  <link rel="stylesheet" href="_style/custom.css">
+  <link rel="stylesheet" href="_style/dark.css" media="(prefers-color-scheme: dark)">
 </head>
 <body>
   <div id="app"></div>
-  <script>
-    window.$docsify = {
-      // Replace Tool and version
-      name: 'Tool 0.1.0',
-      // Replace Tool in the url
-      repo: 'https://github.com/OpenPecha/Tool',
-      coverpage: true,
-      loadSidebar: true,
-      subMaxLevel: 0,
-      auto2top: true,
-      logo: '/_media/icon.png',
-      themeColor: '#EB805F',
-
-      search: {
-      maxAge: 86400000, // Expiration time, the default one day
-      paths: 'auto', // or 'auto'
-      placeholder: 'Type to search',
-      hideOtherSidebarContent: true,
-      depth: 6},
-      // Replace Tool in the url
-      plugins: [EditOnGithubPlugin.create('https://github.com/OpenPecha/Tool/blob/main/docs/')],
-
-
-
-    }
-  </script>
-
-  <script src="//unpkg.com/docsify-copy-code"></script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-  <script src="//unpkg.com/prismjs/components/prism-python.js"></script>
-
 </body>
+<script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github/index.js"></script>
+<script src="_js/index.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+<!-- <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script> -->
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-javascript.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script>
+<script src="_js/plugins.js"></script>
 </html>
